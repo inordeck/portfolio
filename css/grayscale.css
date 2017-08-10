@@ -70,7 +70,7 @@ a:focus {
 }
 .light {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -143,7 +143,7 @@ text-transform:   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial,
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/nordeck-sketchbooks-1.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
