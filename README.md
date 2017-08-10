@@ -1,5 +1,12 @@
 # [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 
+
+## links
+- purchased domain: ian-nordeck.codes
+- gh pages: https://inordeck.github.io/portfolio/
+- hosting: bluehost https://my.bluehost.com/cgi/cpanel
+
+## grayscale
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
 
 ## Getting Started
