@@ -16,8 +16,7 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
 
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
@@ -54,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about-section">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#portfolio-section">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact-section">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -75,6 +74,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+                        <img id="inIcon" src="./img/in-codes-icon-01.svg" alt="ian nordeck codes icon">
                         <h1 class="brand-heading">pixels with purpose</h1>
                         <p class="intro-text">I am a full-stack developer focused on purpose-built websites and web apps.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
@@ -87,48 +87,166 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about-section" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <img class="headshot" src="./img/ian-nordeck-photo.jpg" alt="ian nordeck photo">
+                <h2 class="section-header">about</h2>
+               
+                <div class="aboutCopy">
+                    <p>With over 16-years background in design, branding and being on the design side of digital projects I decided I wanted to become part of building them. With my experiende at Generall Assembly I learned the skills to work as a full-stack developer.</p>
+                    <div class="col-lg-4"> <!--col-lg-offset-2-->
+                        <ul>
+                            <li class="subhead">dev</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                HTML 5
+                            </li>
+                            <li>
+                                CSS (SASS, animations, Box Model, Flexbox, Bootsrtap)
+                            </li>
+                            <li>
+                                Javascript (ES6, DOM Maniulation, OOP)
+                            </li>
+                            <li>
+                                jQuery (Browser Storage, Browser Games)
+                            </li>
+                            <li>
+                                AJAX
+                            </li>
+                            <li>
+                                Node (Running Local Servers, Performing Basic Run-Time Functions)
+                            </li>
+                            <li>
+                                APIs (Creating Them, Working with 3rd Party APIs)
+                            </li>
+                            <li>
+                                MOCHA Tests
+                            </li>
+                            <li>
+                                Express (Route-Building)
+                            </li>
+                            <li>
+                                Mongo DB
+                            </li>
+                            <li>
+                                Mongoose
+                            </li>
+                            <li>
+                                Full-Stack App (JS + Node + Express + Mongoose + Mongo)
+                            </li>
+                            <li>
+                                Gulp
+                            </li>
+                            <li>
+                                MVC Concept
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <ul>
+                            <li class="subhead">design</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                Passport (Authorization and Security)
+                            </li>
+                            <li>
+                                Angular (1 and 2)
+                            </li>
+                            <li>
+                                Typescript
+                            </li>
+                            <li>
+                                MEAN Full-Stack App (Mongo, Express, Angulsr, Node)
+                            </li>
+                            <li>
+                                SQL
+                            </li>
+                            <li>
+                                Postgres
+                            </li>
+                            <li>
+                                SEAN Full-Stack App (SQL, Express, Angular, Node)
+                            </li>
+                            <li>
+                                React
+                            </li>
+                            <li>
+                                Redux
+                            </li>
+                            <li>
+                                PHP
+                            </li>
+                            <li>
+                                Wordpress
+                            </li>
+                            <li>
+                                Ruby
+                            </li>
+                            <li>
+                                Ruby on Rails
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="glyphicon glyphicon-download-alt"> download resume</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- QUOTE 1 -->
+    <section class="content-section text-center">
+        <div class="quote">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <blockquote>"I learned that there’s no substitute for good old fashion give-a-shit. I used to think it was possible to manufacture a pretty good facsimile, but there’s nothing quite like the real thing. There is no fee or line item on a scope of work for giving a shit, but all the “core competency” in the world is useless without it. As an organization or an individual, it’s the most formidable thing you can have, and the most valuable thing you can offer."</blockquote>
+                    <h5>– DAVE SCHIFF, CHIEF CREATIVE OFFICER AT MADE</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO Section -->
+    <section id="portfolio-section" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section-header">portfolio</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE 2 -->
+    <section class="content-section text-center">
+        <div class="quote">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <blockquote>"Being ready is not what matters. What matters is winning after you get there."</blockquote>
+                    <h5>– LT. GENERAL VICTOR H. KRULAK, USMC</h5>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact-section" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <h2 class="section-header">Thank You</h2>
+                <p>Feel free to email me about your project or to just say hello!</p>
+                <p><a href="mailto:ian.nordeck@gmail.com">ian.nordeck@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://www.linkedin.com/in/iannordeck/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/inordeck" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -139,8 +257,21 @@
 
     <!-- Footer -->
     <footer>
+        <div>
+            <ul class="footer-nav">
+                <li>
+                    <a class="page-scroll" href="#about-section">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio-section">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact-section">Contact</a>
+                </li>
+            </ul>
+        </div>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; Ian T. Nordeck 2017</p>
         </div>
     </footer>
 
@@ -158,6 +289,10 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- Typekit Fonts -->
+    <script src="https://use.typekit.net/dwt3fre.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </body>
 
