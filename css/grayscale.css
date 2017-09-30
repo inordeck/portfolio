@@ -11,6 +11,7 @@ inc blue: #205d9e
 inc blue hover: #2078b2
 inc yellow: #efa526
 
+inc background gray: #202020
 inc gray 90%: #414042
 inc gray 60%: #808285
 inc gray 20%: #d1d3d4
@@ -67,6 +68,14 @@ body {
   padding-bottom: 100px;
 }
 
+.portfolioImage {
+  padding-bottom: 25px;
+}
+
+hr {
+  margin-top: 40px;
+}
+
 #contact-section {
   background-color: #202020;
   padding-top: 50px;
@@ -117,11 +126,12 @@ h6 {
 
 .section-header {
   color: #efa526;
+  text-transform: uppercase;
+  font-size: 4em;
 }
 
 p {
   margin: 0 0 25px;
-  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -138,6 +148,7 @@ blockquote {
   text-transform: uppercase;
   font-family: "museo-slab", Georgia, serif;
   font-weight: 900;
+  font-size: 1.5em;
   letter-spacing: 1px;
 }
 
@@ -145,6 +156,7 @@ blockquote {
   color: #efa526;
   list-style: none;
   text-transform: uppercase;
+  font-size: 2.5em;
   font-family: "museo-slab", Georgia, serif;
   font-weight: 900;
   letter-spacing: 1px;
@@ -153,6 +165,7 @@ blockquote {
 .aboutCopy{
   display: inline-block;
   text-align: left;
+  font-size: 2em;
 }
 
 .skills {
