@@ -6,11 +6,11 @@
 
 /* COLORS USED */
 /*
-inc orange: #f8931d
-inc teal: #14a79d
-inc teal 75%: #63bab2
-inc teal 50%: #99cbc8
-inc teal 25%: #cae4e1
+ind red: #b51e23
+inc blue: #205d9e
+inc blue hover: #2078b2
+inc yellow: #efa526
+
 inc gray 90%: #414042
 inc gray 60%: #808285
 inc gray 20%: #d1d3d4
@@ -35,42 +35,42 @@ font-style: italic;
   display: inline-block;
   width: 20%;
 }
+
 .headshot {
   display: inline-block;
   width: 40%;
 }
 
 /* SECTIONS */
-body {
-  width: 100%;
-  height: 100%;
-  font-family: "museo-sans", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: #414042;
-}
 html {
   width: 100%;
   height: 100%;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #202020;
+}
+
 #about-section {
-  padding-top: 100px;
-  background-color: #414042;
-}
-#about {
+  padding-top: 50px;
+  background-color: #202020;
   text-align: center;
-}
-.aboutCopy{
-  display: inline-block;
-  text-align: left;
+  padding-bottom: 100px;
 }
 
 #portfolio-section {
-
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 #contact-section {
-  background-color: #414042;
+  background-color: #202020;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 #quoteOne {
@@ -97,8 +97,6 @@ html {
   -o-background-size: cover;
 }
 
-
-
 footer {
   background-color: black;
 }
@@ -116,8 +114,9 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 .section-header {
-  color: #f8931d;
+  color: #efa526;
 }
 
 p {
@@ -132,11 +131,18 @@ blockquote {
   font-weight: 100;
   font-style: italic;
   font-size: 35px;
+}
 
+.quoteAttribute {
+  color: #b51e23;
+  text-transform: uppercase;
+  font-family: "museo-slab", Georgia, serif;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .subhead{
-  color: #f8931d;
+  color: #efa526;
   list-style: none;
   text-transform: uppercase;
   font-family: "museo-slab", Georgia, serif;
@@ -144,26 +150,34 @@ blockquote {
   letter-spacing: 1px;
 }
 
-.skills {
+.aboutCopy{
+  display: inline-block;
   text-align: left;
-
 }
 
-.quoteAttribute {
-  color: #14a79d;
-  text-transform: uppercase;
-  font-family: "museo-slab", Georgia, serif;
-  font-weight: 900;
-  letter-spacing: 1px;
+.skills {
+  text-align: left;
 }
 
 .footer-nav {
+  padding-top: 25px;
   text-align: center;
-  display: inline;
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
-  font-weight: 900
+  font-weight: 900;
+}
+
+.footer-nav li {
+  display: inline;
+  margin: 20px 15px;
+}
+
+.copyright {
+  color: #808285;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .resume {
@@ -184,7 +198,7 @@ blockquote {
   }
 }
 a {
-  color: #42DCA3;
+  color: #205d9e;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -192,7 +206,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #2078b2;
 }
 .light {
   font-weight: 400;
@@ -217,7 +231,7 @@ text-transform:   font-family: "museo-slab", Georgia, serif;
   font-family: "museo-slab", Georgia, serif;
   font-weight: 100;
   font-style: italic;
-  color: #f8931d;
+  color: #efa526;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -384,16 +398,16 @@ text-transform:   font-family: "museo-slab", Georgia, serif;
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #205d9e;
+  color: #205d9e;
   background-color: tranuppercaserent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #2078b2;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #2078b2;
 }
 ul.banner-social-buttons {
   margin-top: 0;
