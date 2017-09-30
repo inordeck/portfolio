@@ -141,6 +141,11 @@ p {
   font-size: 2em;
 }
 
+.subtext {
+  font-weight: 100;
+  color: #d1d3d4;
+}
+
 
 blockquote {
   text-align: left;
