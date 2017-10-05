@@ -6,9 +6,9 @@
 
 /* COLORS USED */
 /*
-ind red: #b51e23
-inc blue: #205d9e
-inc blue hover: #2078b2
+ind red: #b51e23 || #e60000
+inc blue: #205d9e || #00BFFF
+inc blue hover: #2078b2 || 009ACD
 inc yellow: #efa526
 
 inc background gray: #202020
@@ -30,6 +30,7 @@ font-family: "museo-slab", Georgia, serif;
 font-weight: 100, 1000;
 font-style: italic;
 */
+
 
 #inIcon {
   text-align: center;
@@ -71,6 +72,7 @@ body {
 
 .portfolioImage {
   padding-bottom: 25px;
+  width: 100%;
 }
 
 hr {
@@ -156,7 +158,7 @@ blockquote {
 }
 
 .quoteAttribute {
-  color: #b51e23;
+  color: #e60000;
   text-transform: uppercase;
   font-family: "museo-slab", Georgia, serif;
   font-weight: 900;
@@ -214,6 +216,8 @@ blockquote {
   font-weight: 900
 }
 
+/* ///// @ MEDIA ///// */
+
 /* @ MEDIA*/
 @media (min-width: 768px) {
   p {
@@ -223,7 +227,7 @@ blockquote {
   }
 }
 a {
-  color: #205d9e;
+  color: #00BFFF;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -231,7 +235,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #2078b2;
+  color: #009acd;
 }
 .light {
   font-weight: 400;
@@ -423,16 +427,16 @@ text-transform:   font-family: "museo-slab", Georgia, serif;
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #205d9e;
-  color: #205d9e;
+  border: 1px solid #00BFFF;
+  color: #00BFFF;
   background-color: tranuppercaserent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #2078b2;
+  border: 1px solid #009acd;
   outline: none;
   color: black;
-  background-color: #2078b2;
+  background-color: #009acd;
 }
 ul.banner-social-buttons {
   margin-top: 0;
