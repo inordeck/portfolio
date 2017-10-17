@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ian t. nordeck</title>
+    <title>ian nordeck codes</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
+    <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Google Fonts -->
+    <!--
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    -->
+    
     <!-- Typekit Fonts -->
     <script src="https://use.typekit.net/dwt3fre.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    
-    <!-- Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-</head>
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  </head>
 
+  <body id="page-top">
 
     <!-- //////////////////// -->
     <!-- //////////////////// -->
@@ -44,39 +44,29 @@
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <!--<img class="logo" src="./img/in-codes-logo.png">-->
-                    <!-- <i class="fa fa-anchor"></i>  --><span>ian t. nordeck </span><!-- <span class="light">| FULL-STACK DEVELOPER</span> -->
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about-section">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio-section">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact-section">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ian t. nordeck</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+      </div>
     </nav>
 
 
@@ -88,20 +78,15 @@
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">pixels with purpose</h1>
-                        <p class="intro-text">I am a full-stack developer focused on purpose-built websites and web apps.</p>
-                        <a href="#about-section" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <header class="masthead" id="intro">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">pixels with purpose</h1>
+          <hr>
+          <h4>I am a full-stack developer focused on purpose-built websites and web apps.</h4>
+          <a class="btn btn-default btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
+      </div>
     </header>
 
 
@@ -113,334 +98,317 @@
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <section id="about-section" class="container content-section text-center">
-
-        <!-- INTRO -->
+    <section class="bg-dark" id="about">
+      <div class="container">
         <div class="row">
-        <div class="col-lg-2"></div> <!-- white space left -->
-
-            <div class="col-lg-8">
-                <img class="headshot" src="./img/ian-nordeck-photo.jpg" alt="ian nordeck photo">
-                <h2 class="section-header">about</h2>
-            </div
-
-        <div class="col-lg-2"></div> <!-- white space right -->
+          <div class="col-lg-8 mx-auto text-center">
+            <img class="headshot" src="./img/ian-nordeck-photo.jpg" alt="ian nordeck photo">
+            <h1 class="section-heading text-white">ABOUT</h1>
+            <hr class="yellow">
+            <p class=" alignLeft text-faded">With over 16-years background in design, branding and being on the design side of digital projects I decided I wanted to become part of building them. My creative abilities combined with my experience at General Assembly has given me the skills to work as a full-stack developer with a focus on building meaningful front end experiences.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#skills">SKILLS</a>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- ABOUT COPY -->
 
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!-- Quote One Section -->
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <header class="masthead" id="quoteOne">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <blockquote>"I learned that there’s no substitute for good old fashion give-a-shit. I used to think it was possible to manufacture a pretty good facsimile, but there’s nothing quite like the real thing. There is no fee or line item on a scope of work for giving a shit, but all the “core competency” in the world is useless without it. As an organization or an individual, it’s the most formidable thing you can have, and the most valuable thing you can offer."</blockquote>
+          <hr class="blue">
+          <h6>– DAVE SCHIFF, CHIEF CREATIVE OFFICER AT MADE</h6>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!-- Skills Section -->
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <section id="skills">
+      <div class="container">
         <div class="row">
-        <div class="col-lg-2"></div> <!-- white space left -->
+          <div class="col-lg-12 text-center">
+            <h1 class="section-heading">SKILLS</h1>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
 
-            <div class="aboutCopy col-lg-8 "
-                <p>With over 16-years background in design, branding and being on the design side of digital projects I decided I wanted to become part of building them. My creative abilities combined with my experience at General Assembly has given me the skills to work as a full-stack developer with a focus on building meaningful front end experiences.</p>
-            </div>
-
-        <div class="col-lg-2"></div> <!-- white space right -->
-        </div> <!-- end of row -->
-
-        <!-- SKILLS -->
+      <div class="container">
         <div class="row">
-        <div class="col-lg-2"></div> <!-- white space left -->
 
-             <div class="skills col-lg-4"> <!--col-lg-offset-2-->
-                <ul>
-                    <li class="subhead">dev skills</li>
-                </ul>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-laptop text-primary sr-icons"></i>
+              <h3>DEV SKILLS</h3>
+              <ul class="skillsList">
+                <li>
+                  HTML5, CSS3, JavaScript
+                </li>
+                <li>
+                    Bootstrap, Materialize
+                </li>
+                <li>
+                    Wordpress
+                </li>
+                <li>
+                    Sass, Gulp
+                </li>
+                <li>
+                    Node.js, Express, EJS, AJAX
+                </li>
+                <li>
+                    React, Redux
+                </li>
+                <li>
+                    Angular, TypeScript, Ionic
+                </li>
+                <li>
+                    Mongo, Mongoose
+                </li>
+                <li>
+                    SQL, Sequelize, PostgreSQL
+                </li>
+                <li>
+                    Firebase
+                </li>
+              </ul>
+            </div> <!-- end service section -->
+          </div> <!-- end col-lg-3 col-md-6 -->
+
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-pencil text-primary sr-icons"></i>
+              <h3>DESIGN SKILLS</h3>
                 <ul class="skillsList">
-                    <li>
-                        HTML5, CSS3, JavaScript
-                    </li>
-                    <li>
-                        Bootstrap, Materialize
-                    </li>
-                    <li>
-                        Wordpress
-                    </li>
-                    <li>
-                        Sass, Gulp
-                    </li>
-                    <li>
-                        Node.js, Express, EJS, AJAX
-                    </li>
-                    <li>
-                        React, Redux
-                    </li>
-                    <li>
-                        Angular, TypeScript, Ionic
-                    </li>
-                    <li>
-                        Mongo, Mongoose
-                    </li>
-                    <li>
-                        SQL, Sequelize, PostgreSQL
-                    </li>
-                    <li>
-                        Firebase
-                    </li>
+                  <li>
+                      UX Design
+                  </li>
+                  <li>
+                      Identity Design
+                  </li>
+                  <li>
+                      Advertising Campaigns
+                  </li>
+                  <li>
+                      Print Collateral
+                  </li>
+                  <li>
+                      Packaging
+                  </li>
+                  <li>
+                      Point of Sale
+                  </li>
+                  <li>
+                      Signage
+                  </li>
+                  <li>
+                      Promotional Materials
+                  </li>
+                  <li>
+                      Event Design
+                  </li>
+                  <li>
+                      Out of Home
+                  </li>
                 </ul>
-            </div>
+            </div> <!-- end service section -->
+          </div> <!-- end col-lg-3 col-md-6 -->
 
-            <div class="skills col-lg-4">
-                <ul>
-                    <li class="subhead">design skills</li>
-                </ul>
-                <ul class="skillsList">
-                    <li>
-                        UX Design
-                    </li>
-                    <li>
-                        Identity Design
-                    </li>
-                    <li>
-                        Advertising Campaigns
-                    </li>
-                    <li>
-                        Print Collateral
-                    </li>
-                    <li>
-                        Packaging
-                    </li>
-                    <li>
-                        Point of Sale
-                    </li>
-                    <li>
-                        Signage
-                    </li>
-                    <li>
-                        Promotional Materials
-                    </li>
-                    <li>
-                        Event Design
-                    </li>
-                    <li>
-                        Out of Home
-                    </li>
-                </ul>
-            </div>
-        <div class="col-lg-2"></div> <!-- white space right -->
-        </div> <!-- end of skills row -->
-        
-        <!-- RESUME LINK -->
-        <!--         
-        <div class="row">
-        <div class="col-lg-2"></div>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-file-text text-primary sr-icons"></i>
+              <h3>RESUME</h3>
+              <a href="img/nordeck-resume.pdf" download>Download pdf of resume</a>
+            </div> <!-- end service section -->
+          </div> <!-- end col-lg-3 col-md-6 -->
 
-            <div class="col-lg-8">
-                <a href="" class="glyphicon glyphicon-download-alt resume"> download resume</a>
-                <a href="https://www.linkedin.com/in/iannordeck/" target="_blank" class="glyphicon glyphicon-download-alt resume">view linkedin</a>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-thumbs-up text-primary sr-icons"></i>
+              <h3>CONNECT</h3>
+              <ul class="connect">
+                <li class="connect">
+                  <a href="https://www.linkedin.com/in/iannordeck/" target="_blank">LinkedIn</a>
+                </li>
+                <li class="connect">
+                  <p> | </p>
+                </li>
+                <li class="connect">
+                  <a href="https://github.com/inordeck" target="_blank">GitHub</a>
+                </li>
+                <li class="connect">
+                  <p> | </p>
+                </li>
+                <li class="connect">
+                  <a href="https://profiles.generalassemb.ly/profiles/ian-nordeck" target="_blank">GA Profile</a>
+                </li>
+              </ul>
+            </div> <!-- end service section -->
+          </div> <!-- end col-lg-3 col-md-6 -->
 
-            </div
-
-        <div class="col-lg-2"></div>
-        </div> 
-        -->
-
-    </section>
-
-
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-
-    <!-- QUOTE 1 -->
-
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-   
-    <section class="content-section text-center">
-        <div id="quoteOne">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <blockquote>"I learned that there’s no substitute for good old fashion give-a-shit. I used to think it was possible to manufacture a pretty good facsimile, but there’s nothing quite like the real thing. There is no fee or line item on a scope of work for giving a shit, but all the “core competency” in the world is useless without it. As an organization or an individual, it’s the most formidable thing you can have, and the most valuable thing you can offer."</blockquote>
-                    <h5 class="quoteAttribute">– DAVE SCHIFF, CHIEF CREATIVE OFFICER AT MADE</h5>
-                </div>
-            </div>
         </div>
+      </div>
     </section>
 
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!-- Portfolio Section New -->
 
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <!-- PORTFOLIO Section -->
+    <section class="bg-dark" id="portfolio">
+      <div class="container-fluid">
 
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-
-    <section id="portfolio-section" class="container content-section text-center">
+        <!-- title -->
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="section-header">portfolio</h2>
-            </div>
-        </div> <!-- end of row 1 -->
-
-        <!-- DIAGNOSIS AI -->
-        <div class="row"> <!-- row 2 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="https://markkleinfelder.github.io/DiagnosisAI/">DIAGNOSIS A.I.</a></h4>
-
-                <!-- image -->
-                <img src="./img/diagnosis-ai-image.jpg" class="portfolioImage" alt="DIAGNOSIS A.I. Image">
-
-                <p class="description">Mark Kleinfelder and I worked with a startup in the Boulder incubator, Boomtown, to create a fully interactive and styled prototype for a native app of their pre-op and post-op chat A.I.</p>
-
-                <p class="subtext">TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Node, Booptstrap, Materialize</p>
-
-                <p class="contributors subtext">CONTRIBUTORS: <a href="https://github.com/inordeck" target="_blank">Ian T. Nordeck</a>, <a href="https://github.com/MarkKleinfelder" target="_blank">Mark Kleinfelder</a></p>
-
-                <a href="https://markkleinfelder.github.io/DiagnosisAI/" target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/MarkKleinfelder/DiagnosisAI" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-
-                <hr>
-            </div>
-
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 2 -->
-
-        <!-- BRIAN HARTMAN -->
-        <div class="row"> <!-- row 3 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="http://www.ian-nordeck.com/">Brian Hartman, Photographer</a></h4>
-
-                <!-- image -->
-                <a href="http://www.ian-nordeck.com/" target="_blank"><img src="./img/brian-hartman-image.jpg" class="portfolioImage" alt="Brian Hartman Image"></a>
-
-                <p class="description">Assignment to build photographer, Brian Hartman, a portfolio website using Wordpress based on his input and provided assets.</p>
-
-                <p class="subtext">TECHNOLOGIES: Wordpress</p>
-
-                <a href="http://www.ian-nordeck.com/" target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/inordeck/brian-hartman" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-
-                <hr>
-            </div>
-            
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 3 -->
-
-        <!-- INSPIRATION ONLY -->
-        <div class="row"> <!-- row 4 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="https://inspiration-only-dev.firebaseapp.com">Inspiration Only</a></h4>
-
-                <!-- image -->
-                <a href="https://inspiration-only-dev.firebaseapp.com" target="_blank"><img src="./img/inspiration-only-image.jpg" class="portfolioImage" alt="Inspiration Only Image"></a>
-
-                <p class="description">As on ongoing personal project I built a collaborative storytelling app where contributors respond to the story so far, then nominate the next person to participate.</p>
-
-                <p class="subtext">TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Node, Firebase, AngularFire2</p>
-
-                <a href="https://inspiration-only.firebaseapp.com" target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/inordeck/inspiration-only" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-
-                <hr>
-            </div>
-
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 4 -->
-
-        <!-- COLOR -->
-        <div class="row"> <!-- row 5 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="https://hidden-citadel-94665.herokuapp.com/">Color</a></h4>
-
-                <!-- image -->
-                <a href="https://hidden-citadel-94665.herokuapp.com/" target="_blank"><img src="./img/color-image.jpg" class="portfolioImage" alt="Color App Image"></a>
-
-                <p class="description">Collaborative project to help people make color choices based personality attributes from the Dewey Color System.</p>
-
-                <p class="subtext">TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Node, Express, SQL, Sequelize, Passport JWT</p>
-
-                <p class="contributors subtext">CONTRIBUTORS: <a href="https://github.com/inordeck" target="_blank">Ian T. Nordeck</a>, <a href="https://github.com/SpindleMonkey" target="_blank">Connie Kephart</a>, <a href="https://github.com/mtclark0518" target="_blank">Tyler Clark</a>, <a href="https://github.com/jeffDevelops" target="_blank">Jeff Reynolds</a></p>
-
-                <a href="https://hidden-citadel-94665.herokuapp.com/" target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/mtclark0518/project3" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-
-                <hr>
-            </div>
-            
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 5 -->
-
-        <!-- SHYRIIWOOK -->
-        <div class="row"> <!-- row 6 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="https://protected-anchorage-30906.herokuapp.com/">Shyriiwook</a></h4>
-
-                <!-- image -->
-                <a href="https://protected-anchorage-30906.herokuapp.com/" target="_blank"><img src="./img/shyriiwook-image.jpg" class="portfolioImage" alt="Shyriiwook Image"></a>
-
-                <p class="description">I created a MEAN stack app to learn how to speak Wookie utilizing the Star Wars and Responsive Voice APIs.</p>
-
-                <p class="subtext">TECHNOLOGIES: HTML, CSS, JavaScript, MongoDB, Mongoose, Express, AJAX, Node.js, Heroku</p>
-
-                <a href="https://protected-anchorage-30906.herokuapp.com/" target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/inordeck/shyriiwook" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-
-                <hr>
-            </div>
-
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 6 -->
-
-        <!-- MAZE RACER -->
-        <div class="row"> <!-- row 7 -->
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-
-            <div class="col-lg-10">
-                <h4 class="subhead"><a href="https://inordeck.github.io/project-1/">Maze Racer</a></h4>
-
-                <!-- image -->
-                <a href="https://inordeck.github.io/project-1/" target="_blank"><img src="./img/maze-racer-image.jpg" class="portfolioImage" alt="Maze Racer Image"></a>
-
-                <p class="description">A maze racing game I created where two players race through the same maze from opposite sides.</p>
- 
-                <p class="subtext">TECHNOLOGIES: HTML, CSS, JavaScript, jQuery, Canvas</p>
-
-                <a href="https://inordeck.github.io/project-1/." target="_blank" class="btn btn-default btn-lg"><span class="network-name">View Project</span></a>
-
-                <a href="https://github.com/inordeck/project-1" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-            </div>
-            
-            <div class="col-lg-1"></div> <!-- WHITESPACE -->
-        </div> <!-- end of row 7 -->
-
-    </section>
-
-
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-
-    <!-- QUOTE 2 -->
-
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-
-    <section class="content-section text-center">
-        <div id="quoteTwo">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <blockquote>"Being ready is not what matters. What matters is winning after you get there."</blockquote>
-                    <h5 class="quoteAttribute">– LT. GENERAL VICTOR H. KRULAK, USMC</h5>
-                </div>
-            </div>
+          <div class="col-lg-12 text-center">
+            <h1 class="section-heading">PORTFOLIO</h1>
+            <hr class="yellow">
+            <h4 id="portfolioSub">Click on images for more information</h4>
+          </div>
         </div>
+
+        <div class="row no-gutter">
+
+          <!-- project 1 -->
+          <div class="projects col-lg-4 col-sm-6">
+            <img class="projects" src="img/diagnosis-ai.jpg" alt="Diagnosis A.I. Image" data-toggle="collapse" data-target="#projectOne">
+
+            <div id="projectOne" class="portfolioDetails collapse">
+              <h6 class="text-faded">PROTOTYPE</h6>
+              <h2><a class="portfolioTitle" href="https://markkleinfelder.github.io/DiagnosisAI/" target="_blank">Diagnosis A.I.</a></h2>
+              <p>TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Ionic, Node, Booptstrap, Materialize</p>
+              <p>CONTRIBUTORS: Ian T. Nordeck, Mark Kleinfelder</p>
+              <a class="yellowLink" href="https://markkleinfelder.github.io/DiagnosisAI/" target="_blank">VIEW PROJECT</a> | 
+              <a class="yellowLink" href="https://github.com/MarkKleinfelder/DiagnosisAI" target="_blank">GITHUB</a>
+            </div>
+
+          </div>
+
+          <!-- project 2 -->
+          <div class="col-lg-4 col-sm-6">
+            <img class="projects" src="img/brian-hartman.jpg" alt="Brian Hartman Image" data-toggle="collapse" data-target="#projectTwo">
+
+            <div id="projectTwo" class="portfolioDetails collapse">
+              <h6 class="text-faded">WORDPRESS</h6>
+              <h2><a class="portfolioTitle" href="http://www.ian-nordeck.com/" target="_blank">Brian Hartman, Photographer</a></h2>
+              <p>TECHNOLOGIES: WordPress, HTML, CSS</p>
+              <a class="yellowLink" href="http://www.ian-nordeck.com/" target="_blank">VIEW PROJECT</a>
+            </div>            
+          </div>
+
+          <!-- project 3 -->
+          <div class="col-lg-4 col-sm-6" >
+            <img class="projects" src="img/inspiration-only.jpg" alt="Inspiration Only Image" data-toggle="collapse" data-target="#projectThree">
+
+            <div id="projectThree" class="portfolioDetails collapse">
+              <h6 class="text-faded">FULL STACK APP</h6>
+              <h2><a class="portfolioTitle" href="https://inspiration-only.firebaseapp.com/" target="_blank">Inspiration Only</a></h2>
+              <p>TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Node, Firebase, AngularFire2</p>
+              <a class="yellowLink" href="https://inspiration-only.firebaseapp.com/" target="_blank">VIEW PROJECT</a> | 
+              <a class="yellowLink" href="https://github.com/inordeck/inspiration-only" target="_blank">GITHUB</a>
+            </div>            
+          </div>
+
+          <!-- project 4 -->
+          <div class="col-lg-4 col-sm-6" >
+            <img class="projects" src="img/color-psychology.jpg" alt="Color Psychology Image" data-toggle="collapse" data-target="#projectFour">
+
+            <div id="projectFour" class="portfolioDetails collapse">
+              <h6 class="text-faded">FULL STACK APP</h6>
+              <h2><a class="portfolioTitle" href="https://hidden-citadel-94665.herokuapp.com/" target="_blank">Color Psychology</a></h2>
+              <p>TECHNOLOGIES: HTML, CSS, Sass, JavaScript, Angular, TypeScript, Node, Express, SQL, Sequelize, Passport JWT</p>
+              <p>CONTRIBUTORS: Ian T. Nordeck, Connie Kephart, Tyler Clark, Jeff Reynolds</p>
+              <a class="yellowLink" href="https://hidden-citadel-94665.herokuapp.com/" target="_blank">VIEW PROJECT</a> | 
+              <a class="yellowLink" href="https://github.com/mtclark0518/project3" target="_blank">GITHUB</a>
+            </div>            
+          </div>
+
+          <!-- project 5 -->
+          <div class="col-lg-4 col-sm-6" >
+            <img class="projects" src="img/shyriiwook.jpg" alt="Learn Shyriiwook Image" data-toggle="collapse" data-target="#projectFive">
+
+            <div id="projectFive" class="portfolioDetails collapse">
+              <h6 class="text-faded">FULL STACK APP</h6>
+              <h2><a class="portfolioTitle" href="https://protected-anchorage-30906.herokuapp.com/" target="_blank">Learn Shyriiwook</a></h2>
+              <p>TECHNOLOGIES: HTML, CSS, JavaScript, MongoDB, Mongoose, Express, AJAX, Node.js, Heroku</p>
+              <a class="yellowLink" href="https://protected-anchorage-30906.herokuapp.com/" target="_blank">VIEW PROJECT</a> | 
+              <a class="yellowLink" href="https://github.com/inordeck/shyriiwook" target="_blank">GITHUB</a>
+            </div>            
+          </div>
+
+          <!-- project 6 -->
+          <div class="col-lg-4 col-sm-6" >
+            <img class="projects" src="img/maze-racer.jpg" alt="Maze Racer Image" data-toggle="collapse" data-target="#projectSix">
+
+            <div id="projectSix" class="portfolioDetails collapse">
+              <h6 class="text-faded">ONLINE GAME</h6>
+              <h2><a class="portfolioTitle" href="https://inordeck.github.io/project-1/" target="_blank">Maze Racer</a></h2>
+              <p>TECHNOLOGIES: HTML, CSS, JavaScript, jQuery, Canvas</p>
+              <a class="yellowLink" href="https://inordeck.github.io/project-1/" target="_blank">VIEW PROJECT</a> | 
+              <a class="yellowLink" href="https://github.com/inordeck/project-1" target="_blank">GITHUB</a>
+            </div>            
+          </div>
+
+        </div> <!-- end row -->
+      </div> <!-- end container fluid -->
     </section>
+
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!-- Call To Action -->
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!--
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </div> 
+    -->
+
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <!-- Quote Two Section -->
+
+    <!-- //////////////////// -->
+    <!-- //////////////////// -->
+
+    <header class="masthead" id="quoteTwo">
+      <div class="header-content text-center">
+        <div class="header-content-inner">
+          <blockquote class="quoteCenter">"Being ready is not what matters. What matters is winning after you get there."</blockquote>
+          <hr class="blue">
+          <h6>– LT. GENERAL VICTOR H. KRULAK, USMC</h6>
+        </div>
+      </div>
+    </header>
 
 
     <!-- //////////////////// -->
@@ -451,78 +419,78 @@
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <section id="contact-section" class="container content-section text-center">
+    <section id="contact">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="section-header">Thank You</h2>
-                <p>Feel free to email me about your project or to just say hello!</p>
-                <p><a href="mailto:ian.nordeck@gmail.com">ian.nordeck@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/iannordeck/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/inordeck" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                </ul>
-            </div>
+          <div class="col-lg-8 mx-auto text-center">
+            <h1 class="section-heading">CONTACT</h1>
+            <hr class="blue">
+            <p>Let's Get In Touch! Feel free to contact me about your project or to just say hello.</p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p class="phone">303 746 0472</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a class="blueLink" href="mailto:your-email@your-domain.com">ian.nordeck@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
 
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <!-- Footer -->
+    <!-- Footer Section -->
 
     <!-- //////////////////// -->
     <!-- //////////////////// -->
 
-    <footer>
-        <div>
-            <ul class="footer-nav">
-                <li>
-                    <a class="page-scroll" href="#about-section">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio-section">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact-section">Contact</a>
-                </li>
+    <section class="bg-dark" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <ul class="footerNav">
+              <li class="nav-item footerNav">
+                <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item footerNav">
+                <a class="nav-link js-scroll-trigger" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item footerNav">
+                <a class="nav-link js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item footerNav">
+                <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+              </li>
             </ul>
-        </div>
-        <div class="container text-center">
-            <p class="copyright">&copy; 2017, Ian T. Nordeck</p>
-        </div>
-    </footer>
+            <p class="text-faded">&copy; 2017, ian t. nordeck</p>
+          </div> <!-- end of col lg 8 -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </section>
 
 
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
 
-    <!-- SCRIPTS -->
-
-    <!-- //////////////////// -->
-    <!-- //////////////////// -->
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
-    <!-- Typekit Fonts -->
-    <script src="https://use.typekit.net/dwt3fre.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-</body>
+  </body>
 
 </html>
